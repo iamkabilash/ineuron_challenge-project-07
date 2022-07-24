@@ -164,7 +164,10 @@ nav{
     height: 30px;
     margin: 0px 20px;
     border-radius: 15px;
-    background-color: blue;
+    cursor: pointer;
+}
+.dot:hover{
+    border: 2px solid #000;
 }
 .right-section .action-btn{
     margin-top: 30px;
@@ -177,4 +180,7 @@ nav{
 }
 .black-dot{
     background-color: #000;
+}
+.black-dot:hover{
+    border: 2px solid #FE5E35;
 }
