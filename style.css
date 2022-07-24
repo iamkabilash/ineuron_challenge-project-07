@@ -56,6 +56,10 @@ nav{
 }
 .right-section{
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .left-section h3{
     font-family: Poppins;
@@ -127,7 +131,7 @@ nav{
     position: absolute;
     z-index: 5;
     top: 280px;
-    right: 450px;
+    right: 400px;
     align-items: center;
     justify-content: center;
 }
@@ -136,7 +140,7 @@ nav{
     position: absolute;
     z-index: 5;
     top: 330px;
-    right: 490px;
+    right: 440px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -152,7 +156,6 @@ nav{
     flex-direction: row;
     justify-content: center;
     margin-top: 10px;
-    margin-left: -5px;
 }
 .dot{
     z-index: 6;
@@ -163,7 +166,6 @@ nav{
     background-color: blue;
 }
 .right-section .action-btn{
-    margin-left: 33%;
     margin-top: 30px;
 }
 .yellow-dot{
