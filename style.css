@@ -156,6 +156,7 @@ nav{
     flex-direction: row;
     justify-content: center;
     margin-top: 10px;
+    margin-left: -20px;
 }
 .dot{
     z-index: 6;
